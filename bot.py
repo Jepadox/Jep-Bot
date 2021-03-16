@@ -8,7 +8,7 @@ import builtins
 load_dotenv()
 TOKEN = os.getenv('TOKEN')
 
-bot = commands.Bot(command_prefix='~', help_command=None)
+bot = commands.Bot(command_prefix='~', help_command=None, case_insensitive=True)
 builtins.bot = bot
 
 @bot.event
