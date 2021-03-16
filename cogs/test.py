@@ -14,7 +14,7 @@ class Test(commands.Cog):
         help="Test",
         brief="Dev commands for terminal data",
     )
-
+    # git change test
     # (self, ctx) no arguments needed
     # (self, ctx, arg1, arg2, etc..) list amount of arguments taken, separated by space, quotes make one arg "this is one arg"
     # (self, ctx, *args) take all arguments and put them in library args 
