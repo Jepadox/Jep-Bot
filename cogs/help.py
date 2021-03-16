@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-version = '0.1.2'
+version = '0.1.3'
 
 class Help(commands.Cog):
     def __init__(self, bot):
