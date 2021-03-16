@@ -14,14 +14,14 @@ class Test(commands.Cog):
         help="Test",
         brief="Dev commands for terminal data",
     )
-    # git change test
+
+    # dev notes
     # (self, ctx) no arguments needed
     # (self, ctx, arg1, arg2, etc..) list amount of arguments taken, separated by space, quotes make one arg "this is one arg"
     # (self, ctx, *args) take all arguments and put them in library args 
     # (self, ctx, *, args) take all arguments as one arg 
 
     async def test(self, ctx, *args):
-        # https://dog.ceo/api/breeds/image/random
         if args[0] == 'cat':
             apiCall = 'https://api.thecatapi.com/v1/images/search'
             jsonLinkTag = 'url'
